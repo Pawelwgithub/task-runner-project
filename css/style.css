@@ -2,7 +2,7 @@
 /*# sourceMappingURL=style.css.map */
 
 $color-one: #ffffff;
-$color-two: #fed136
+$color-two: #fed136;
 
 $font-text: 'Playfair Display', serif;
 $font-header: 'Roboto Condensed', sans-serif;
@@ -33,15 +33,45 @@ section {
     padding: 55px 0;
 }
 
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-text;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #fed136;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: all 1s;
+}
+
+.btn-one {
+    border-color: #fed136;
+    color: #ffffff;
+    background-image: linear-gradient(90deg, #ffffff 50%, transparent 50%);
+}
+
+.btn-one:hover {
+    background-position: 0 100%;
+    color: #fed136;
+}
+
 /* Splash */
 
-.splash :before {
+.splash ul::before {
     content: "Golden";
-    position: fixed;
+    position: absolute;
     font-size: 60px;
     font-family: 'Playfair Display', serif;
     line-height: 2.5;
-    top: -10px;
+    top: -5px;
     left: 150px;
     color: #fed136;
     z-index: 1;

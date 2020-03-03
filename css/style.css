@@ -106,7 +106,7 @@ section {
 }
 .splash li {
     display: inline-block;
-    margin: 0 40px 0 0;
+    margin: 0 20px 0 0;
     position: relative;
 }
 
@@ -114,7 +114,18 @@ section {
     text-decoration: none;
     color: #ffffff;
     font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px;
 }
+
+.splash a:hover {
+    background: #fed136;
+    border-radius: 20px;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    color: #fed136;
+  }
 
 .splash {
     height: 100vh;
@@ -174,4 +185,39 @@ section {
 
 .services p {
     color: #777777; 
+}
+
+/* Our portfolio */
+
+.our-portfolio {
+    background: #f7f7f7;
+} 
+
+.our-portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.our-portfolio-wrapper .portfolio {
+    flex: 0 0 30%;
+    min-height: 300px;
+    margin: 20px 0 0 0;
+    flex-direction: column;
+    background: #ffffff;
+}
+
+.portfolio img {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    max-width: 342px;  
+}
+
+.portfolio p {
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    color: #777777;
 }

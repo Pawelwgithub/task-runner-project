@@ -68,7 +68,6 @@ section {
     font-size: 42px;
     margin: 40px 0 0 0;
     font-family: 'Roboto Condensed', sans-serif;
-    color: $color-one;
 }
 
 .section-title p {
@@ -220,4 +219,46 @@ section {
     font-size: 18px;
     font-family: 'Playfair Display', serif;
     color: #777777;
+}
+
+/* Footer */
+
+footer {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0; 
+    transform: translateX(-15%);
+}
+
+footer .page-footer {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0;
+}
+
+footer .page-footer p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #777777;
+    transform: translateX(-20%);
+}
+
+footer .page-footer i {
+    font-size: 20px;
+    background: #222222;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    line-height: 2.0;
+    position: relative;
+}
+
+footer .page-footer i:hover {
+    transform: scale(1.2);
+    transition: 1s;
 }

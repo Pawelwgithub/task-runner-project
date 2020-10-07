@@ -17,7 +17,7 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 16px;
 }
 
 section {
@@ -57,13 +57,13 @@ section {
 
 .section-title h1 {
   font-size: 42px;
-  margin: 40px 0 0 0;
+  margin: 0 0;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 .section-title p {
   font-size: 18px;
-  margin: 0 0 72px 0;
+  margin: 0 0 50px 0;
   font-family: 'Playfair Display', serif;
   color: #777777;
 }
@@ -75,7 +75,18 @@ section {
 }
 
 /* Splash */
-.splash ul::before {
+/*.splash-menu ul::before {
+    content: "Golden";
+    position: absolute;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    line-height: 2.5;
+    top: -5px;
+    left: 150px;
+    color: #fed136;
+    z-index: 1;
+}*/
+.splash .splash-logo a {
   content: "Golden";
   position: absolute;
   font-size: 60px;
@@ -85,29 +96,30 @@ section {
   left: 150px;
   color: #fed136;
   z-index: 1;
+  text-decoration: none;
 }
 
-.splash ul {
-  padding: 50px 150px 0 0;
+.splash-menu ul {
+  padding: 50px 25px 0 0;
   margin: 0;
   list-style-type: none;
   text-align: right;
 }
 
-.splash li {
+.splash-menu li {
   display: inline-block;
   margin: 0 20px 0 0;
   position: relative;
 }
 
-.splash a {
+.splash-menu a {
   text-decoration: none;
   color: #ffffff;
   font-family: 'Roboto Condensed', sans-serif;
   padding: 10px;
 }
 
-.splash a:hover {
+.splash-menu a:hover {
   background: #fed136;
   border-radius: 20px;
   text-decoration: none;
@@ -122,7 +134,7 @@ section {
   position: relative;
   color: #ffffff;
   background-image: url("../images/splash.jpg");
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -277,10 +289,13 @@ footer .page-footer i:hover {
 
 /* Media */
 @media (max-width: 767px) {
-  .splash ul::before {
+  section {
+    padding: 55px 0 20px 0;
+  }
+  .splash .splash-logo a {
     font-size: 50px;
-    top: -30px;
-    left: 80px;
+    top: -10px;
+    left: 95px;
   }
   .splash ul {
     padding: 100px 90px 0px 90px;
@@ -292,12 +307,15 @@ footer .page-footer i:hover {
     font-size: 20px;
   }
   .page-subtitle {
-    margin: 10px 0 0 0;
-    font-size: 35px;
+    margin: 30px 0 0 0;
+    font-size: 22px;
   }
   .our-services .services {
     -ms-flex: auto;
         flex: auto;
+  }
+  .services p {
+    margin: 0 0 50px 0;
   }
   .our-portfolio-wrapper .portfolio {
     -ms-flex: auto;

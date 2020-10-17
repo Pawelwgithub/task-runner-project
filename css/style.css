@@ -302,6 +302,9 @@ footer .page-footer i:hover {
     margin: 0;
     text-align: center;
   }
+  .splash {
+    background-image: url("../images/splash-media.jpg");
+  }
   .page-title {
     margin: 70px 0 0 0;
     font-size: 20px;

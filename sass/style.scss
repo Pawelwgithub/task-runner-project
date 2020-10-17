@@ -118,7 +118,7 @@ section {
 
 .splash-menu li {
     display: inline-block;
-    margin: 0 20px 0 0;
+    margin: 10px 5px 0 0;
     position: relative;
 }
 
@@ -283,10 +283,14 @@ footer .page-footer i:hover {
 
 /* Media */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     section {
         padding: 55px 0 20px 0;
+    }
+
+    .btn {
+        margin: 20px auto 0 auto;
     }
 
     .splash .splash-logo a {
@@ -306,12 +310,12 @@ footer .page-footer i:hover {
     }
 
     .page-title {
-        margin: 70px 0 0 0;
+        margin: 30px 0 0 0;
         font-size: 20px; 
     }
 
     .page-subtitle {
-        margin: 30px 0 0 0;
+        margin: 10px 0 0 0;
         font-size: 22px;
     }
 

@@ -303,7 +303,7 @@ footer .page-footer i:hover {
     text-align: center;
   }
   .splash {
-    background-image: url("../images/splash-media.jpg");
+    max-width: 100%;
   }
   .page-title {
     margin: 70px 0 0 0;

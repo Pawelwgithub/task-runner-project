@@ -300,6 +300,49 @@ footer .page-footer i:hover {
     top: -10px;
     left: 95px;
   }
+  .splash-menu a {
+    padding: 0px;
+  }
+  .page-title {
+    margin: 30px 0 0 0;
+    font-size: 20px;
+  }
+  .page-subtitle {
+    margin: 10px 0 0 0;
+    font-size: 22px;
+  }
+  .our-services .services {
+    -ms-flex: auto;
+        flex: auto;
+  }
+  .services p {
+    margin: 0 0 50px 0;
+  }
+  .our-portfolio-wrapper .portfolio {
+    -ms-flex: auto;
+        flex: auto;
+  }
+  footer {
+    transform: translateX(0%);
+  }
+  footer .page-footer p {
+    transform: translateX(0%);
+    margin: 16px 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 55px 0 20px 0;
+  }
+  .btn {
+    margin: 20px auto 0 auto;
+  }
+  .splash .splash-logo a {
+    font-size: 50px;
+    top: -10px;
+    left: 95px;
+  }
   .splash ul {
     padding: 100px 90px 0px 90px;
     margin: 0;
@@ -323,9 +366,6 @@ footer .page-footer i:hover {
   .our-portfolio-wrapper .portfolio {
     -ms-flex: auto;
         flex: auto;
-  }
-  footer {
-    transform: translateX(0%);
   }
   footer .page-footer p {
     transform: translateX(0%);

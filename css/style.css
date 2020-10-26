@@ -303,6 +303,14 @@ footer .page-footer i:hover {
   .splash-menu a {
     padding: 0px;
   }
+  .splash-menu a:hover {
+    background: transparent;
+    text-decoration: none;
+    border-style: none;
+    background-color: transparent;
+    color: #fed136;
+    font-size: 18px;
+  }
   .page-title {
     margin: 30px 0 0 0;
     font-size: 20px;

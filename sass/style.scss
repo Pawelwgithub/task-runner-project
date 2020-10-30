@@ -36,16 +36,19 @@ section {
     display: inline-block;
     min-width: 160px;
     margin: 24px auto 0 auto;
-    padding: 16px;
+    //padding: 16px;
+    padding: 18px;
     border-radius: 5px;
     font-family: 'Playfair Display', serif;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
-    border-width: 2px;
+    //border-width: 2px;
+    border-width: 3px;
     border-style: solid;
-    background-color: #fed136;
+    //background-color: #fed136;
+    background-color: transparent;
     background-position: 100% 0;
     background-size: 300%;
     transition: all 1s;
@@ -53,14 +56,17 @@ section {
 
 .btn-one {
     border-color: #fed136;
-    color: #ffffff;
+    //color: #ffffff;
+    color: #fed136;
     background-image: linear-gradient(90deg, transparent 50%,transparent 50%);
 }
 
 .btn-one:hover {
     background-position: 0 100%;
-    background-color: transparent;
-    color: #fed136;
+    //background-color: transparent;
+    background-color: #fed136;
+    //color: #fed136;
+    color:#ffffff;
 }
 
 .section-title h1 {

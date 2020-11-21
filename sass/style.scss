@@ -90,7 +90,7 @@ section {
 
 /* Splash */
 
-/*.splash-menu ul::before {
+/*.nav ul::before {
     content: "Golden";
     position: absolute;
     font-size: 60px;
@@ -102,7 +102,7 @@ section {
     z-index: 1;
 }*/
 
-.splash .splash-logo a {
+.splash .logo a {
     content: "Golden";
     position: absolute;
     font-size: 60px;
@@ -115,27 +115,27 @@ section {
     text-decoration: none;
 }
 
-.splash-menu ul {
+.nav ul {
     padding: 50px 25px 0 0;
     margin: 0;
     list-style-type: none;
     text-align: right;
 }
 
-.splash-menu li {
+.nav li {
     display: inline-block;
     margin: 10px 5px 0 0;
     position: relative;
 }
 
-.splash-menu a {
+.nav a {
     text-decoration: none;
     color: #ffffff;
     font-family: 'Roboto Condensed', sans-serif;
     padding: 10px;
 }
 
-.splash-menu a:hover {
+.nav a:hover {
     background: #fed136;
     border-radius: 20px;
     text-decoration: none;
@@ -299,17 +299,17 @@ footer .page-footer i:hover {
         margin: 20px auto 0 auto;
     }
 
-    .splash .splash-logo a {
+    .splash .logo a {
         font-size: 50px;
         top: -10px;
         left: 95px;
     }
 
-    .splash-menu a {
+    .nav a {
         padding: 0px;
     }
 
-    .splash-menu a:hover {
+    .nav a:hover {
         background: transparent;
         text-decoration: none;
         border-style: none;
@@ -360,7 +360,7 @@ footer .page-footer i:hover {
         margin: 20px auto 0 auto;
     }
 
-    .splash .splash-logo a {
+    .splash .logo a {
         font-size: 50px;
         top: -10px;
         left: 95px;

@@ -238,6 +238,11 @@ section {
   color: #777777;
 }
 
+/* Contact */
+.contact {
+  background: #f7f7f7;
+}
+
 /* Footer */
 footer {
   list-style-type: none;
@@ -249,8 +254,8 @@ footer {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
-  padding: 20px 0;
-  transform: translateX(-20%);
+  padding: 15px 0;
+  background: #f7f7f7;
 }
 
 footer .page-footer {
@@ -267,8 +272,11 @@ footer .page-footer {
 footer .page-footer p {
   font-family: 'Roboto Condensed', sans-serif;
   color: #777777;
-  transform: translateX(-20%);
-  margin: 16px 175px;
+  margin: 16px 175px 0px 175px;
+}
+
+footer .page-footer a {
+  text-decoration: none;
 }
 
 footer .page-footer i {
@@ -335,7 +343,7 @@ footer .page-footer i:hover {
   }
   footer .page-footer p {
     transform: translateX(0%);
-    margin: 16px 80px;
+    margin: 16px 80px 0px 80px;
   }
 }
 

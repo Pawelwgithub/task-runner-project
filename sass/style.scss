@@ -358,6 +358,11 @@ footer .page-footer i:hover {
         flex: auto;
     }
 
+    .our-portfolio-wrapper .portfolio:hover {
+        transform: scale(1);
+        transition: 1s;
+    }
+
     footer {
         transform: translateX(0%);
     }

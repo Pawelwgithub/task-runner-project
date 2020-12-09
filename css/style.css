@@ -343,6 +343,10 @@ footer .page-footer i:hover {
     -ms-flex: auto;
         flex: auto;
   }
+  .our-portfolio-wrapper .portfolio:hover {
+    transform: scale(1);
+    transition: 1s;
+  }
   footer {
     transform: translateX(0%);
   }

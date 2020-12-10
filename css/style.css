@@ -66,6 +66,7 @@ section {
   margin: 0 0 50px 0;
   font-family: 'Playfair Display', serif;
   color: #777777;
+  text-align: justify;
 }
 
 .section-subtitle {
@@ -196,6 +197,8 @@ section {
 
 .services p {
   color: #777777;
+  margin: 25px;
+  text-align: justify;
 }
 
 /* Our portfolio */
@@ -246,6 +249,10 @@ section {
 /* Contact */
 .contact {
   background: #f7f7f7;
+}
+
+.contact p {
+  text-align: center;
 }
 
 /* Footer */

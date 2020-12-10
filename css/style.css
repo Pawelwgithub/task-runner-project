@@ -251,6 +251,13 @@ section {
   background: #f7f7f7;
 }
 
+.contact .section-subtitle {
+  font-size: 24px;
+  margin: 20px 0 12px 0;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
 .contact p {
   text-align: center;
 }

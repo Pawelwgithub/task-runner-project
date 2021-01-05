@@ -84,7 +84,7 @@ section {
     line-height: 2.5;
     top: -5px;
     left: 150px;
-    color: #fed136;
+    color: $color-five;
     z-index: 1;
 }*/
 .splash .logo a {

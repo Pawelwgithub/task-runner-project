@@ -1,7 +1,10 @@
 /* Variables */
 
 $color-one: #ffffff;
-$color-two: #fed136;
+$color-two: #000;
+$color-three: #777777;
+$color-four: #f7f7f7;
+$color-five: #fed136;
 
 $font-text: 'Playfair Display', serif;
 $font-header: 'Roboto Condensed', sans-serif;
@@ -16,7 +19,7 @@ body {
     margin: 0;
     text-align: center;
     background: #fff;
-    color: #000;
+    color: $color-two;
     font-size: 16px;
     line-height: 1.7;
     font-family: $font-text;
@@ -47,7 +50,7 @@ section {
     //border-width: 2px;
     border-width: 3px;
     border-style: solid;
-    //background-color: #fed136;
+    //background-color: $color-five;
     background-color: transparent;
     background-position: 100% 0;
     background-size: 300%;
@@ -55,17 +58,17 @@ section {
 }
 
 .btn-one {
-    border-color: #fed136;
+    border-color: $color-five;
     //color: #ffffff;
-    color: #fed136;
+    color: $color-five;
     background-image: linear-gradient(90deg, transparent 50%,transparent 50%);
 }
 
 .btn-one:hover {
     background-position: 0 100%;
     //background-color: transparent;
-    background-color: #fed136;
-    //color: #fed136;
+    background-color: $color-five;
+    //color: $color-five;
     color:#ffffff;
 }
 
@@ -79,7 +82,7 @@ section {
     font-size: 18px;
     margin: 0 0 50px 0;
     font-family: 'Playfair Display', serif;
-    color: #777777;
+    color: $color-three;
     text-align: justify;
 }
 
@@ -99,7 +102,7 @@ section {
     line-height: 2.5;
     top: -5px;
     left: 150px;
-    color: #fed136;
+    color: $color-five;
     z-index: 1;
 }*/
 
@@ -111,7 +114,7 @@ section {
     line-height: 2.5;
     top: -5px;
     left: 150px;
-    color: #fed136;
+    color: $color-five;
     z-index: 1;
     text-decoration: none;
 }
@@ -137,13 +140,13 @@ section {
 }
 
 .nav a:hover {
-    background: #fed136;
+    background: $color-five;
     border-radius: 20px;
     text-decoration: none;
     border-width: 2px;
     border-style: solid;
     background-color: transparent;
-    color: #fed136;
+    color: $color-five;
 }
 
 .splash {
@@ -199,15 +202,15 @@ section {
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    color: #fed136;
+    color: $color-five;
     line-height: 2.0;
-    border-color: #fed136;
+    border-color: $color-five;
     border-width: 3px;
     border-style: solid;
 }
 
 .services p {
-    color: #777777;
+    color: $color-three;
     margin: 25px; 
     text-align: justify;
 }
@@ -215,7 +218,7 @@ section {
 /* Our portfolio */
 
 .our-portfolio {
-    background: #f7f7f7;
+    background: $color-four;
 } 
 
 .our-portfolio-wrapper {
@@ -244,7 +247,7 @@ section {
 .portfolio p {
     font-size: 18px;
     font-family: 'Playfair Display', serif;
-    color: #777777;
+    color: $color-three;
 }
 
 .our-portfolio-wrapper .portfolio:hover {
@@ -255,7 +258,7 @@ section {
 /* Contact */
 
 .contact {
-    background: #f7f7f7;
+    background: $color-four;
 }
 
 .contact .section-subtitle {
@@ -280,7 +283,7 @@ footer {
     //padding: 20px 0; 
     //transform: translateX(-20%);
     padding: 15px 0;
-    background: #f7f7f7;
+    background: $color-four;
 }
 
 footer .page-footer {
@@ -293,7 +296,7 @@ footer .page-footer {
 
 footer .page-footer p {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #777777;
+    color: $color-three;
     //transform: translateX(-20%);
     //margin: 16px 175px;
     margin: 16px 175px 0px 175px;
@@ -346,7 +349,7 @@ footer .page-footer i:hover {
         text-decoration: none;
         border-style: none;
         background-color: transparent;
-        color: #fed136;
+        color: $color-five;
         font-size: 18px;
     }
 

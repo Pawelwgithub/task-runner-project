@@ -30,7 +30,7 @@ section {
   margin: 24px auto 0 auto;
   padding: 18px;
   border-radius: 5px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
@@ -58,13 +58,13 @@ section {
 .section-title h1 {
   font-size: 42px;
   margin: 0 0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .section-title p {
   font-size: 18px;
   margin: 0 0 50px 0;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #777777;
   text-align: justify;
 }
@@ -72,7 +72,7 @@ section {
 .section-subtitle {
   font-size: 24px;
   margin: 20px 0 12px 0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* Splash */
@@ -80,7 +80,7 @@ section {
     content: "Golden";
     position: absolute;
     font-size: 60px;
-    font-family: 'Playfair Display', serif;
+    font-family: $font-text;
     line-height: 2.5;
     top: -5px;
     left: 150px;
@@ -91,7 +91,7 @@ section {
   content: "Golden";
   position: absolute;
   font-size: 60px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   line-height: 2.5;
   top: -5px;
   left: 150px;
@@ -116,7 +116,7 @@ section {
 .nav a {
   text-decoration: none;
   color: #ffffff;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   padding: 10px;
 }
 
@@ -155,14 +155,14 @@ section {
   margin: 140px 0 0 0;
   font-size: 40px;
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .page-subtitle {
   margin: 0;
   font-size: 72px;
   font-weight: 400;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* Our services */
@@ -237,7 +237,7 @@ section {
 
 .portfolio p {
   font-size: 18px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #777777;
 }
 
@@ -289,7 +289,7 @@ footer .page-footer {
 }
 
 footer .page-footer p {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #777777;
   margin: 16px 175px 0px 175px;
 }

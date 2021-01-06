@@ -42,7 +42,7 @@ section {
     //padding: 16px;
     padding: 18px;
     border-radius: 5px;
-    font-family: 'Playfair Display', serif;
+    font-family: $font-text;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
@@ -75,13 +75,13 @@ section {
 .section-title h1 {
     font-size: 42px;
     margin: 0 0;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: $font-header;
 }
 
 .section-title p {
     font-size: 18px;
     margin: 0 0 50px 0;
-    font-family: 'Playfair Display', serif;
+    font-family: $font-text;
     color: $color-three;
     text-align: justify;
 }
@@ -89,7 +89,7 @@ section {
 .section-subtitle {
     font-size: 24px;
     margin: 20px 0 12px 0;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: $font-header;
 }
 
 /* Splash */
@@ -98,7 +98,7 @@ section {
     content: "Golden";
     position: absolute;
     font-size: 60px;
-    font-family: 'Playfair Display', serif;
+    font-family: $font-text;
     line-height: 2.5;
     top: -5px;
     left: 150px;
@@ -110,7 +110,7 @@ section {
     content: "Golden";
     position: absolute;
     font-size: 60px;
-    font-family: 'Playfair Display', serif;
+    font-family: $font-text;
     line-height: 2.5;
     top: -5px;
     left: 150px;
@@ -135,7 +135,7 @@ section {
 .nav a {
     text-decoration: none;
     color: #ffffff;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: $font-header;
     padding: 10px;
 }
 
@@ -172,14 +172,14 @@ section {
     margin: 140px 0 0 0;
     font-size: 40px; 
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family: $font-text;
 }
 
 .page-subtitle {
     margin: 0;
     font-size: 72px;
     font-weight: 400;
-    font-family: 'Roboto Condensed', sans-serif; 
+    font-family: $font-header; 
 }
 
 /* Our services */
@@ -246,7 +246,7 @@ section {
 
 .portfolio p {
     font-size: 18px;
-    font-family: 'Playfair Display', serif;
+    font-family: $font-text;
     color: $color-three;
 }
 
@@ -295,7 +295,7 @@ footer .page-footer {
 }
 
 footer .page-footer p {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: $font-header;
     color: $color-three;
     //transform: translateX(-20%);
     //margin: 16px 175px;

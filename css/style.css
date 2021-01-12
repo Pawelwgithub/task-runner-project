@@ -392,8 +392,8 @@ footer .page-footer i:hover {
     position: absolute;
     height: 60px;
     width: 60px;
-    top: 15%;
-    left: 40%;
+    top: 3%;
+    left: 75%;
     z-index: 1000;
     cursor: pointer;
     border-radius: 50%;
@@ -442,15 +442,14 @@ footer .page-footer i:hover {
   .nav.nav-media ul {
     margin: 0;
     position: absolute;
-    top: 30%;
-    right: 10%;
+    top: 20%;
+    right: 18%;
     padding: 0px 75px;
   }
   .nav.nav-media ul li {
     list-style: none;
-    font-size: 24px;
+    font-size: 22px;
     color: #fff;
-    line-height: 2.2;
     text-transform: uppercase;
     letter-spacing: 1.7px;
     font-family: "Roboto Condensed", sans-serif;
@@ -468,7 +467,6 @@ footer .page-footer i:hover {
     border-style: none;
     background-color: transparent;
     color: #000;
-    font-size: 32px;
   }
   .nav.nav-media.show {
     width: 50%;
@@ -515,7 +513,7 @@ footer .page-footer i:hover {
   .splash .logo a {
     font-size: 50px;
     top: -10px;
-    left: 95px;
+    left: 50px;
   }
   .splash ul {
     padding: 100px 90px 0px 90px;
@@ -525,7 +523,7 @@ footer .page-footer i:hover {
   .page-title {
     margin: 0px;
     font-size: 20px;
-    padding: 300px 0 0 0;
+    padding: 250px 0 0 0;
   }
   .page-subtitle {
     margin: 10px 0 0 0;

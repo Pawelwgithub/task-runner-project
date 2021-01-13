@@ -1,4 +1,19 @@
 /* Variables */
+/*font-family: 
+'Advent Pro', sans-serif;
+'Architects Daughter', cursive;
+'Big Shoulders Stencil Text', cursive;
+'East Sea Dokdo', cursive;
+'Monoton', cursive;
+'Odibee Sans', cursive;
+'Orbitron', sans-serif;
+'Permanent Marker', cursive;
+'Rajdhani', sans-serif;
+'Roboto', sans-serif;
+'Roboto Condensed', sans-serif;
+'Roboto Mono', monospace;
+'Source Code Pro', monospace;
+'Space Mono', monospace;*/
 /* Global */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -11,7 +26,7 @@ body {
   color: #000;
   font-size: 16px;
   line-height: 1.7;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -30,7 +45,7 @@ section {
   margin: 24px auto 0 auto;
   padding: 18px;
   border-radius: 5px;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
@@ -64,7 +79,7 @@ section {
 .section-title p {
   font-size: 18px;
   margin: 0 0 50px 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   color: #777777;
   text-align: justify;
 }
@@ -91,7 +106,7 @@ section {
   content: "Golden";
   position: absolute;
   font-size: 60px;
-  font-family: "Playfair Display", serif;
+  font-family: "Monoton", cursive;
   line-height: 2.5;
   top: -5px;
   left: 150px;
@@ -155,7 +170,7 @@ section {
   margin: 140px 0 0 0;
   font-size: 40px;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .page-subtitle {
@@ -237,7 +252,7 @@ section {
 
 .portfolio p {
   font-size: 18px;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   color: #777777;
 }
 
@@ -254,7 +269,7 @@ section {
 .contact .section-subtitle {
   font-size: 24px;
   margin: 50px 0 12px 0;
-  font-family: "Playfair Display", serif;
+  font-family: "Monoton", cursive;
   text-align: center;
 }
 

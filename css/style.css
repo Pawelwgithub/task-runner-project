@@ -90,8 +90,8 @@ section {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-/* Splash */
-.splash {
+/* Header */
+header {
   height: 100vh;
   position: relative;
   color: #ffffff;
@@ -101,13 +101,13 @@ section {
   background-attachment: fixed;
 }
 
-.splash-inner {
+.intro {
   margin: auto;
   max-width: 70%;
 }
 
 @media (max-width: 767px) {
-  .splash-inner {
+  .intro {
     max-width: 100%;
   }
 }
@@ -127,7 +127,7 @@ section {
 }
 
 /* Logo */
-/*.splash ul::before {
+/*header ul::before {
     content: "Golden";
     position: absolute;
     font-size: 60px;
@@ -138,7 +138,7 @@ section {
     color: $color-five;
     z-index: 1;
 }*/
-.splash .logo a {
+header .logo a {
   content: "Golden";
   position: absolute;
   font-size: 60px;
@@ -151,28 +151,28 @@ section {
   text-decoration: none;
 }
 
-/* Navigation */
-.navigation ul {
+/* Menu */
+.menu ul {
   padding: 50px 25px 0 0;
   margin: 0;
   list-style-type: none;
   text-align: right;
 }
 
-.navigation li {
+.menu li {
   display: inline-block;
   margin: 10px 5px 0 0;
   position: relative;
 }
 
-.navigation a {
+.menu a {
   text-decoration: none;
   color: #ffffff;
   font-family: "Roboto Condensed", sans-serif;
   padding: 10px;
 }
 
-.navigation a:hover {
+.menu a:hover {
   background: #fed136;
   border-radius: 20px;
   text-decoration: none;
@@ -180,6 +180,20 @@ section {
   border-style: solid;
   background-color: transparent;
   color: #fed136;
+}
+
+/* Go top icon */
+.go-top-icon i {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  background: rgba(0, 0, 0, 0.1);
+  bottom: 120px;
+  right: 15px;
+  text-align: center;
+  line-height: 35px;
+  color: #fed136;
+  border-radius: 50%;
 }
 
 /* Our services */
@@ -331,20 +345,6 @@ footer .page-footer i:hover {
   transition: 1s;
 }
 
-/* Go top icon */
-.go-top-icon i {
-  position: fixed;
-  width: 35px;
-  height: 35px;
-  background: rgba(0, 0, 0, 0.1);
-  bottom: 120px;
-  right: 15px;
-  text-align: center;
-  line-height: 35px;
-  color: #fed136;
-  border-radius: 50%;
-}
-
 /* Media */
 @media (max-width: 767px) {
   section {
@@ -353,16 +353,16 @@ footer .page-footer i:hover {
   .btn {
     margin: 20px auto 0 auto;
   }
-  .splash .logo a {
-    font-size: 50px;
+  header .logo a {
+    font-size: 24px;
     top: -10px;
     left: 95px;
   }
-  /*.navigation a {
+  /*.menu a {
         padding: 0px;
     }
 
-    .navigation a:hover {
+    .menu a:hover {
         background: transparent;
         text-decoration: none;
         border-style: none;
@@ -401,7 +401,7 @@ footer .page-footer i:hover {
     transform: translateX(0%);
     margin: 16px 80px 0px 80px;
   }
-  /* Navigation */
+  /* Menu */
   .icon-1, .icon-2, .icon-3 {
     position: absolute;
     right: 25%;
@@ -419,7 +419,7 @@ footer .page-footer i:hover {
     transform: translateY(8px);
     animation-delay: 250ms;
   }
-  .nav-media-icon {
+  .menu-media-icon {
     position: absolute;
     height: 60px;
     width: 60px;
@@ -430,7 +430,7 @@ footer .page-footer i:hover {
     border-radius: 50%;
     transition: all 0.2s ease-in-out;
   }
-  .nav-media-icon:hover {
+  .menu-media-icon:hover {
     transform: scale(1.2);
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   }
@@ -458,7 +458,7 @@ footer .page-footer i:hover {
       opacity: 1;
     }
   }
-  .navigation.nav-media {
+  .menu.menu-media {
     background: #D4D9DB;
     position: absolute;
     top: 0;
@@ -470,7 +470,7 @@ footer .page-footer i:hover {
     transition: all 600ms cubic-bezier(0.62, 0.04, 0.3, 1.56);
     transition-delay: 100ms;
   }
-  .navigation.nav-media ul {
+  .menu.menu-media ul {
     margin: 0;
     position: absolute;
     top: 20%;
@@ -478,7 +478,7 @@ footer .page-footer i:hover {
     padding: 0px 60px;
     text-align: justify;
   }
-  .navigation.nav-media ul li {
+  .menu.menu-media ul li {
     list-style: none;
     font-size: 22px;
     color: #fff;
@@ -486,21 +486,21 @@ footer .page-footer i:hover {
     letter-spacing: 1.7px;
     font-family: "Roboto Condensed", sans-serif;
   }
-  .navigation.nav-media ul li a {
+  .menu.menu-media ul li a {
     text-decoration: none;
     color: #000;
     font-family: "Roboto Condensed", sans-serif;
     padding: 0px;
     font-weight: bold;
   }
-  .navigation.nav-media ul li a:hover {
+  .menu.menu-media ul li a:hover {
     background: transparent;
     text-decoration: none;
     border-style: none;
     background-color: transparent;
     color: #000;
   }
-  .navigation.nav-media.show {
+  .menu.menu-media.show {
     width: 50%;
     opacity: 1;
   }
@@ -542,12 +542,12 @@ footer .page-footer i:hover {
   .btn {
     margin: 20px auto 0 auto;
   }
-  .splash .logo a {
-    font-size: 50px;
-    top: -10px;
+  header .logo a {
+    font-size: 32px;
+    top: 10px;
     left: 35px;
   }
-  .navigation ul {
+  .menu ul {
     padding: 100px 90px 0px 90px;
     margin: 0;
     text-align: center;

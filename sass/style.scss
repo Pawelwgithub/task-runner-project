@@ -112,9 +112,9 @@ section {
     font-family: $font-header;
 }
 
-/* Splash */
+/* Header */
 
-.splash {
+header {
     height: 100vh;
     position: relative;
     color: #ffffff;
@@ -124,7 +124,7 @@ section {
     background-attachment: fixed;
 }
 
-.splash-inner {
+.intro {
     margin: auto;
     max-width: 70%;
 
@@ -149,7 +149,7 @@ section {
 
 /* Logo */
 
-/*.splash ul::before {
+/*header ul::before {
     content: "Golden";
     position: absolute;
     font-size: 60px;
@@ -161,7 +161,7 @@ section {
     z-index: 1;
 }*/
 
-.splash .logo a {
+header .logo a {
     content: "Golden";
     position: absolute;
     font-size: 60px;
@@ -174,29 +174,29 @@ section {
     text-decoration: none;
 }
 
-/* Navigation */
+/* Menu */
 
-.navigation ul {
+.menu ul {
     padding: 50px 25px 0 0;
     margin: 0;
     list-style-type: none;
     text-align: right;
 }
 
-.navigation li {
+.menu li {
     display: inline-block;
     margin: 10px 5px 0 0;
     position: relative;
 }
 
-.navigation a {
+.menu a {
     text-decoration: none;
     color: #ffffff;
     font-family: $font-header;
     padding: 10px;
 }
 
-.navigation a:hover {
+.menu a:hover {
     background: $color-five;
     border-radius: 20px;
     text-decoration: none;
@@ -204,6 +204,24 @@ section {
     border-style: solid;
     background-color: transparent;
     color: $color-five;
+}
+
+/* Go top icon */
+
+.go-top-icon i {
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    //background: #555;
+    background: rgba(0,0,0,0.1);
+    //opacity: .4;
+    bottom: 120px;
+    right: 15px;
+    text-align: center;
+    line-height: 35px;
+    //color: white;
+    color: $color-five;
+    border-radius: 50%;
 }
 
 /* Our services */
@@ -347,24 +365,6 @@ footer .page-footer i:hover {
     transition: 1s;
 }
 
-/* Go top icon */
-
-.go-top-icon i {
-    position: fixed;
-    width: 35px;
-    height: 35px;
-    //background: #555;
-    background: rgba(0,0,0,0.1);
-    //opacity: .4;
-    bottom: 120px;
-    right: 15px;
-    text-align: center;
-    line-height: 35px;
-    //color: white;
-    color: $color-five;
-    border-radius: 50%;
-}
-
 /* Media */
 
 @media (max-width: 767px) {
@@ -377,17 +377,17 @@ footer .page-footer i:hover {
         margin: 20px auto 0 auto;
     }
 
-    .splash .logo a {
-        font-size: 50px;
+    header .logo a {
+        font-size: 24px;
         top: -10px;
         left: 95px;
     }
 
-    /*.navigation a {
+    /*.menu a {
         padding: 0px;
     }
 
-    .navigation a:hover {
+    .menu a:hover {
         background: transparent;
         text-decoration: none;
         border-style: none;
@@ -434,7 +434,7 @@ footer .page-footer i:hover {
         margin: 16px 80px 0px 80px;
     }
 
-    /* Navigation */
+    /* Menu */
 
     .icon-1, .icon-2, .icon-3 {
         position: absolute;
@@ -459,7 +459,7 @@ footer .page-footer i:hover {
         animation-delay: 250ms;
     }
 
-    .nav-media-icon {
+    .menu-media-icon {
         position: absolute;
         height: 60px;
         width: 60px;
@@ -521,7 +521,7 @@ footer .page-footer i:hover {
         }
     }
 
-    .navigation.nav-media {
+    .menu.menu-media {
         background: #D4D9DB;
         position: absolute;
         top: 0;
@@ -577,7 +577,7 @@ footer .page-footer i:hover {
         } 
     }
 
-    .navigation.nav-media.show {
+    .menu.menu-media.show {
         // opacity: 0;
         // animation: slideIn 0.6s cubic-bezier(.62,.04,.3,1.56);
         // animation-fill-mode: forwards;
@@ -630,13 +630,13 @@ footer .page-footer i:hover {
         margin: 20px auto 0 auto;
     }
 
-    .splash .logo a {
-        font-size: 50px;
-        top: -10px;
+    header .logo a {
+        font-size: 32px;
+        top: 10px;
         left: 35px;
     }
 
-    .navigation ul {
+    .menu ul {
         padding: 100px 90px 0px 90px;
         margin: 0;
         text-align: center;

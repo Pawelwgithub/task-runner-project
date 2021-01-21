@@ -206,24 +206,6 @@ header .logo a {
     color: $color-five;
 }
 
-/* Go top icon */
-
-.go-top-icon i {
-    position: fixed;
-    width: 35px;
-    height: 35px;
-    //background: #555;
-    background: rgba(0,0,0,0.1);
-    //opacity: .4;
-    bottom: 120px;
-    right: 15px;
-    text-align: center;
-    line-height: 35px;
-    //color: white;
-    color: $color-five;
-    border-radius: 50%;
-}
-
 /* Our services */
 
 .our-services {
@@ -363,6 +345,24 @@ footer .page-footer i {
 footer .page-footer i:hover {
     transform: scale(1.2);
     transition: 1s;
+}
+
+/* Scroll to top */
+
+.scroll-to-top-icon i {
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    //background: #555;
+    background: rgba(0,0,0,0.1);
+    //opacity: .4;
+    bottom: 120px;
+    right: 15px;
+    text-align: center;
+    line-height: 35px;
+    //color: white;
+    color: $color-five;
+    border-radius: 50%;
 }
 
 /* Media */

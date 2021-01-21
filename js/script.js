@@ -1,11 +1,11 @@
 /* Menu in media */
 
-const icon = document.getElementById("icon");
-const icon1 = document.getElementById("a");
-const icon2 = document.getElementById("b");
-const icon3 = document.getElementById("c");
-const menu = document.getElementById('menu');
-const color = document.getElementById("color");
+var icon = document.getElementById("icon");
+var icon1 = document.getElementById("a");
+var icon2 = document.getElementById("b");
+var icon3 = document.getElementById("c");
+var menu = document.getElementById('menu');
+var color = document.getElementById("color");
 
 icon.addEventListener('click', function() {
   icon1.classList.toggle('a');

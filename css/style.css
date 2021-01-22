@@ -95,7 +95,7 @@ header {
   height: 100vh;
   position: relative;
   color: #ffffff;
-  background-image: url("../images/splash.jpg");
+  background-image: url("../images/background.jpg");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -104,19 +104,19 @@ header {
 
 @media (max-width: 480px) {
   header body {
-    background-image: url("../images/splash.jpg");
+    background-image: url("../images/background-mobile.jpg");
   }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
   header body {
-    background-image: url("../images/splash.jpg");
+    background-image: url("../images/background-tablet.jpg");
   }
 }
 
 @media (min-width: 1025px) {
   header body {
-    background-image: url("../images/splash.jpg");
+    background-image: url("../images/background.jpg");
   }
 }
 

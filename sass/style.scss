@@ -124,23 +124,23 @@ header {
     background-attachment: fixed;
     background-repeat: no-repeat;
 
-    @media (max-width: 480px) {
-        body {
+    /*@media (max-width: 480px) {
+        header {
             background-image: url("../images/background-mobile.jpg");
         }
     }
 
     @media (min-width: 481px) and (max-width: 1024px) {
-        body {
+        header {
             background-image: url("../images/background-tablet.jpg");
         }
     }
 
     @media (min-width: 1025px) {
-        body {
+        header {
             background-image: url("../images/background.jpg");
        }
-    }
+    }*/
 }
 
 .intro {
@@ -396,6 +396,10 @@ footer .page-footer i:hover {
         margin: 20px auto 0 auto;
     }
 
+    header {
+        background-image: url("../images/background-mobile.jpg");
+    }
+
     header .logo a {
         font-size: 24px;
         top: -10px;
@@ -647,6 +651,10 @@ footer .page-footer i:hover {
 
     .btn {
         margin: 20px auto 0 auto;
+    }
+
+    header {
+        background-image: url("../images/background-tablet.jpg");
     }
 
     header .logo a {

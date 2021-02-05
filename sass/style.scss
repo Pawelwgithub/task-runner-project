@@ -398,8 +398,29 @@ footer .page-footer i:hover {
     text-align: center;
     line-height: 35px;
     //color: white;
-    color: $color-five;
+    color: $color-one;
     border-radius: 50%;
+    visibility: hidden;
+    overflow: hidden;
+    z-index: 99999999;
+    right: 30px;
+    bottom: 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+.scroll-to-top-icon i:hover {
+    cursor: pointer;
+    background-color: $color-five;
+}
+
+/*.scroll-to-top-icon i:active {
+    background-color: #555;
+}*/
+
+.scroll-to-top-icon i.show {
+    visibility: visible;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
 }
 
 /* Media */

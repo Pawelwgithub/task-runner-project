@@ -587,6 +587,10 @@ footer .page-footer i:hover {
       opacity: 1;
     }
   }
+  /* Scroll to top */
+  .scroll-to-top-icon i {
+    bottom: 80px;
+  }
 }
 
 @media (max-width: 768px) {

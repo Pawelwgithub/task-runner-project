@@ -368,7 +368,7 @@ footer .page-footer i:hover {
   position: fixed;
   width: 35px;
   height: 35px;
-  background: rgba(0, 0, 0, 0.1);
+  background: #fed136;
   bottom: 120px;
   right: 15px;
   text-align: center;
@@ -379,15 +379,14 @@ footer .page-footer i:hover {
   overflow: hidden;
   z-index: 99999999;
   right: 30px;
-  bottom: 30px;
+  bottom: 50px;
   transition: all 0.5s ease-in-out;
 }
 
-.scroll-to-top-icon i:hover {
-  cursor: pointer;
-  background-color: #fed136;
-}
-
+/*.scroll-to-top-icon i:hover {
+    cursor: pointer;
+    background-color: $color-five;
+}*/
 /*.scroll-to-top-icon i:active {
     background-color: #555;
 }*/

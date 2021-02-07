@@ -84,6 +84,18 @@ section {
   color: #ffffff;
 }
 
+.btn-two {
+  border-color: #ffffff;
+  color: #777777;
+  background-image: linear-gradient(90deg, transparent 50%, transparent 50%);
+}
+
+.btn-two:hover {
+  background-position: 0 100%;
+  background-color: #fed136;
+  color: #ffffff;
+}
+
 .section-title h1 {
   font-size: 42px;
   margin: 0 0;
@@ -298,6 +310,7 @@ header .logo a {
 /* Contact */
 .contact {
   background: #f7f7f7;
+  padding: 55px 0;
 }
 
 .contact .section-subtitle {
@@ -309,6 +322,75 @@ header .logo a {
 
 .contact p {
   text-align: center;
+}
+
+.contact .form-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact .form-wrapper .section-subtitle {
+  font-size: 24px;
+  margin: 20px 0 12px 0;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.contact .form-wrapper form {
+  -ms-flex: 2 0 0px;
+      flex: 2 0 0;
+  padding: 10px 10px 0 0;
+  background: inherit;
+  height: 100%;
+  position: relative;
+}
+
+.contact .form-wrapper form input, .contact .form-wrapper form textarea {
+  display: block;
+  margin: 5px;
+  width: 340px;
+  background: inherit;
+  color: #777777;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  border-color: #ffffff;
+  border-bottom-width: 3px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 100%;
+  padding: 10px;
+}
+
+:-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #777777;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  opacity: 1;
+  /* Firefox */
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #777777;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #777777;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #777777;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 /* Footer */

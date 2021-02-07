@@ -110,6 +110,21 @@ section {
     color:#ffffff;
 }
 
+.btn-two {
+    border-color: $color-one;
+    //color: #ffffff;
+    color: $color-three;
+    background-image: linear-gradient(90deg, transparent 50%,transparent 50%);
+}
+
+.btn-two:hover {
+    background-position: 0 100%;
+    //background-color: transparent;
+    background-color: $color-five;
+    //color: $color-five;
+    color:#ffffff;
+}
+
 .section-title h1 {
     font-size: 42px;
     margin: 0 0;
@@ -320,6 +335,7 @@ header .logo a {
 
 .contact {
     background: $color-four;
+    padding: 55px 0;
 }
 
 .contact .section-subtitle {
@@ -332,6 +348,66 @@ header .logo a {
 
 .contact p {
     text-align: center;
+}
+
+.contact .form-wrapper {
+    display: flex;
+    //flex-direction: row;
+    //flex-wrap: wrap;
+    //align-items: flex-start;
+    //background: $color-one;
+    //justify-content: space-between; 
+}
+
+.contact .form-wrapper .section-subtitle {
+    font-size: 24px;
+    margin: 20px 0 12px 0;
+    font-family: $font-header;
+    
+}
+
+.contact .form-wrapper form {
+    flex: 2 0 0;
+    padding: 10px 10px 0 0;
+    background: inherit;
+    height: 100%;
+    position: relative;
+}
+    
+.contact .form-wrapper form input, .contact .form-wrapper form textarea {
+    display: block;
+    margin: 5px;
+    width: 340px;
+    background: inherit;
+    color: $color-three;
+    font-family: $font-text;
+    font-size: 16px;
+    border-color: $color-one;
+    border-bottom-width: 3px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+    padding: 10px; 
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $color-three;
+    font-family: $font-text;
+    font-size: 16px;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $color-three;
+    font-family: $font-text;
+    font-size: 16px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: $color-three;
+    font-family: $font-text;
+    font-size: 16px;
 }
 
 /* Footer */

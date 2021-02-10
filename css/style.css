@@ -286,6 +286,7 @@ header .logo a {
   -ms-flex-direction: column;
       flex-direction: column;
   background: #ffffff;
+  border-radius: 5px;
 }
 
 .portfolio img {
@@ -294,6 +295,7 @@ header .logo a {
   -o-object-fit: cover;
      object-fit: cover;
   max-width: 342px;
+  border-radius: 5px;
 }
 
 .portfolio p {
@@ -401,8 +403,8 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: center;
-      justify-content: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
   padding: 15px 0;

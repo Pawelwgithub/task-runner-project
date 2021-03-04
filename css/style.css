@@ -304,9 +304,14 @@ header .logo a {
   color: #777777;
 }
 
+/*.our-portfolio-wrapper .portfolio:hover {
+    transform: scale(1.2);
+    transition: 2s;
+}*/
 .our-portfolio-wrapper .portfolio:hover {
-  transform: scale(1.2);
-  transition: 2s;
+  transform: translateY(-15px);
+  box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.16);
+  transition: 1s;
 }
 
 /* Contact */
@@ -529,10 +534,10 @@ footer .page-footer i:hover {
     -ms-flex: auto;
         flex: auto;
   }
-  .our-portfolio-wrapper .portfolio:hover {
-    transform: scale(1);
-    transition: 1s;
-  }
+  /*.our-portfolio-wrapper .portfolio:hover {
+        transform: scale(1);
+        transition: 1s;
+    }*/
   footer {
     transform: translateX(0%);
   }

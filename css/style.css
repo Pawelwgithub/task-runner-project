@@ -186,7 +186,7 @@ header .logo a {
   content: "Golden";
   position: absolute;
   font-size: 64px;
-  font-family: "Sarpanch", sans-serif;
+  font-family: "Montserrat Subrayada", sans-serif;
   font-weight: bold;
   line-height: 2.5;
   top: -5px;
@@ -324,7 +324,7 @@ header .logo a {
 .contact .section-subtitle {
   font-size: 32px;
   margin: 50px 0 12px 0;
-  font-family: "Sarpanch", sans-serif;
+  font-family: "Montserrat Subrayada", sans-serif;
   text-align: center;
   font-weight: bold;
 }

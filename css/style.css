@@ -185,8 +185,9 @@ header {
 header .logo a {
   content: "Golden";
   position: absolute;
-  font-size: 60px;
-  font-family: "Monoton", cursive;
+  font-size: 64px;
+  font-family: "Sarpanch", sans-serif;
+  font-weight: bold;
   line-height: 2.5;
   top: -5px;
   left: 150px;
@@ -321,10 +322,11 @@ header .logo a {
 }
 
 .contact .section-subtitle {
-  font-size: 24px;
+  font-size: 32px;
   margin: 50px 0 12px 0;
-  font-family: "Monoton", cursive;
+  font-family: "Sarpanch", sans-serif;
   text-align: center;
+  font-weight: bold;
 }
 
 .contact p {
@@ -688,8 +690,8 @@ footer .page-footer i:hover {
     margin: 20px auto 0 auto;
   }
   header .logo a {
-    font-size: 32px;
-    top: 10px;
+    font-size: 44px;
+    top: -7px;
     left: 35px;
   }
   .menu ul {

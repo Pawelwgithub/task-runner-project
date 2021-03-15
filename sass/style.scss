@@ -15,7 +15,7 @@ $color-five: #fed136;
 
 $font-text: 'Roboto', sans-serif;
 $font-header: 'Chakra Petch', sans-serif;
-$font-logo: 'Monoton', cursive;
+$font-logo: 'Sarpanch', sans-serif;
 
 /*font-family: 
 'Advent Pro', sans-serif;
@@ -216,8 +216,9 @@ header {
 header .logo a {
     content: "Golden";
     position: absolute;
-    font-size: 60px;
+    font-size: 64px;
     font-family: $font-logo;
+    font-weight: bold;
     line-height: 2.5;
     top: -5px;
     left: 150px;
@@ -347,11 +348,12 @@ header .logo a {
 }
 
 .contact .section-subtitle {
-    font-size: 24px;
+    font-size: 32px;
     margin: 50px 0 12px 0;
     //font-family: $font-text;
     font-family: $font-logo;
     text-align: center;
+    font-weight: bold;
 }
 
 .contact p {
@@ -790,8 +792,8 @@ footer .page-footer i:hover {
     //}
 
     header .logo a {
-        font-size: 32px;
-        top: 10px;
+        font-size: 44px;
+        top: -7px;
         left: 35px;
     }
 

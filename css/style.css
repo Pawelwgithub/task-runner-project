@@ -461,7 +461,7 @@ footer .page-footer i:hover {
   position: fixed;
   width: 35px;
   height: 35px;
-  background: #fed136;
+  background: #777777;
   bottom: 120px;
   right: 15px;
   text-align: center;
@@ -476,17 +476,18 @@ footer .page-footer i:hover {
   transition: all 0.5s ease-in-out;
 }
 
-/*.scroll-to-top-icon i:hover {
-    cursor: pointer;
-    background-color: $color-five;
-}*/
+.scroll-to-top-icon i:hover {
+  cursor: pointer;
+  background-color: #fed136;
+}
+
 /*.scroll-to-top-icon i:active {
     background-color: #555;
 }*/
 .scroll-to-top-icon i.show {
   visibility: visible;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 0s ease-in-out;
 }
 
 /* Media */
@@ -680,6 +681,10 @@ footer .page-footer i:hover {
       opacity: 1;
     }
   }
+  /* Scroll to top */
+  .scroll-to-top-icon i:hover {
+    background-color: #777777;
+  }
 }
 
 @media (max-width: 768px) {
@@ -722,6 +727,10 @@ footer .page-footer i:hover {
   footer .page-footer p {
     transform: translateX(0%);
     margin: 16px 80px;
+  }
+  /* Scroll to top */
+  .scroll-to-top-icon i:hover {
+    background-color: #777777;
   }
 }
 /*# sourceMappingURL=style.css.map */

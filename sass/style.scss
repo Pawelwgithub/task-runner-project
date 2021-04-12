@@ -483,7 +483,7 @@ footer .page-footer i:hover {
     //background: #555;
     //background: rgba(0,0,0,0.1);
     //background: $color-three;
-    background: $color-four;
+    background: transparent;
     //opacity: .4;
     bottom: 120px;
     right: 15px;
@@ -783,8 +783,12 @@ footer .page-footer i:hover {
 
     /* Scroll to top */
 
+    .scroll-to-top-icon i {
+        color: $color-five;
+    }
+
     .scroll-to-top-icon i:hover {
-        color: $color-two;
+        color: $color-five;
     }
 }
 
@@ -848,8 +852,12 @@ footer .page-footer i:hover {
 
     /* Scroll to top */
 
+    .scroll-to-top-icon i {
+        color: $color-five;
+    }
+
     .scroll-to-top-icon i:hover {
-        color: $color-two;
+        color: $color-five;
     }
 }
 
@@ -888,8 +896,12 @@ footer .page-footer i:hover {
 
     /* Scroll to top */
 
+    .scroll-to-top-icon i {
+        color: $color-five;
+    }
+
     .scroll-to-top-icon i:hover {
-        color: $color-two;
+        color: $color-five;
     }
 }
 
@@ -901,7 +913,11 @@ footer .page-footer i:hover {
 
     /* Scroll to top */
 
+    .scroll-to-top-icon i {
+        color: $color-five;
+    }
+    
     .scroll-to-top-icon i:hover {
-        color: $color-two;
+        color: $color-five;
     }
 }

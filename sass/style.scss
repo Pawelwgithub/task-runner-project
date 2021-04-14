@@ -703,7 +703,8 @@ footer .page-footer i:hover {
             top: 20%;
             //left: 40%;
             right: 18%;
-            padding: 0px 60px;
+            //padding: 0px 60px;
+            padding: 0px 20px;
             text-align: justify;
 
             li {
@@ -719,7 +720,8 @@ footer .page-footer i:hover {
                     text-decoration: none;
                     color: $color-two;
                     font-family: $font-header;
-                    padding: 0px;
+                    //padding: 0px;
+                    padding: 0px 45px 0px 0px;
                     font-weight: bold;
                 }
 

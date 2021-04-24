@@ -257,6 +257,19 @@ header .logo a {
   border-style: solid;
 }
 
+.services i:hover {
+  background: #fed136;
+  color: #ffffff;
+  transform: translateY(-15px);
+  box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.16);
+  transition: 0s;
+}
+
+.services .section-subtitle:hover {
+  transform: scale(1.2);
+  transition: 0s;
+}
+
 .services p {
   color: #777777;
   margin: 25px;

@@ -696,13 +696,13 @@ footer .page-footer i:hover {
     }
 
     .menu.menu-media {
-        background: #D4D9DB;
+        //background: #D4D9DB;
+        background: $color-three;
         position: absolute;
         top: 0;
         //left: 0;
         right: 0;
-        //height: 100%;
-        height: 60%;
+        height: 100%;
         width: 0%;
         z-index: 8;
         opacity: 0;
@@ -713,7 +713,7 @@ footer .page-footer i:hover {
         ul {
             margin: 0;
             position: absolute;
-            top: 20%;
+            top: 15%;
             //left: 40%;
             right: 18%;
             //padding: 0px 60px;
@@ -731,7 +731,8 @@ footer .page-footer i:hover {
                 
                 a {
                     text-decoration: none;
-                    color: $color-two;
+                    //color: $color-two;
+                    color: $color-one;
                     font-family: $font-header;
                     //padding: 0px;
                     padding: 0px 45px 0px 0px;
@@ -768,7 +769,8 @@ footer .page-footer i:hover {
         top: 0;
         //left: 0;
         right: 0;
-        background: #D4D9DB;
+        //background: #D4D9DB;
+        background: $color-three;
         height: 100%;
         width: 0%;
         transition: all 500ms cubic-bezier(.62,.04,.3,1.8);

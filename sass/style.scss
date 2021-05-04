@@ -223,7 +223,7 @@ header .logo a {
     top: -5px;
     left: 100px;
     color: $color-five;
-    z-index: 1;
+    z-index: 9;
     text-decoration: none;
 }
 
@@ -510,7 +510,7 @@ footer .page-footer i:hover {
     border-width: 1px;
     visibility: hidden;
     overflow: hidden;
-    z-index: 99999999;
+    z-index: 9;
     right: 30px;
     bottom: 50px;
     transition: all 0.5s ease-in-out;
@@ -640,7 +640,7 @@ footer .page-footer i:hover {
         top: 3%;
         //left: 75%;
         right: 5%;
-        z-index: 1000;
+        z-index: 9;
         cursor: pointer;
         border-radius: 50%;
         transition: all 0.2s ease-in-out;
@@ -704,7 +704,7 @@ footer .page-footer i:hover {
         //height: 100%;
         height: 60%;
         width: 0%;
-        z-index: 10;
+        z-index: 8;
         opacity: 0;
 
         transition: all 600ms cubic-bezier(.62,.04,.3,1.56);
@@ -773,7 +773,7 @@ footer .page-footer i:hover {
         width: 0%;
         transition: all 500ms cubic-bezier(.62,.04,.3,1.8);
         transition-delay: 50ms;
-        z-index: 5;
+        z-index: 7;
         opacity: 1;
     }
 

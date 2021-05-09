@@ -698,7 +698,8 @@ footer .page-footer i:hover {
 
     .menu.menu-media {
         //background: #D4D9DB;
-        background: $color-three;
+        //background: $color-three;
+        background: rgba(0,0,0,0);
         position: absolute;
         top: 0;
         //left: 0;
@@ -771,7 +772,8 @@ footer .page-footer i:hover {
         //left: 0;
         right: 0;
         //background: #D4D9DB;
-        background: $color-three;
+        //background: $color-three;
+        background: rgba(119,119,119,0.9);
         height: 100%;
         width: 0%;
         transition: all 500ms cubic-bezier(.62,.04,.3,1.8);
@@ -904,7 +906,7 @@ footer .page-footer i:hover {
     .page-title {
         margin: 0px;
         font-size: 24px;
-        padding: 110px 0 0 0;
+        padding: 180px 0 0 0;
     }
 
     .page-subtitle {
